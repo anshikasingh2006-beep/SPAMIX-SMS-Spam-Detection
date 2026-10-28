@@ -1,0 +1,62 @@
+{
+  "Multinomial Naive Bayes": {
+    "accuracy": 0.9806,
+    "precision": 0.9655,
+    "recall": 0.875,
+    "f1_score": 0.918,
+    "pr_auc": 0.9713,
+    "roc_auc": 0.9907,
+    "latency_ms": 0.0,
+    "confusion_matrix": {
+      "tn": 675,
+      "fp": 3,
+      "fn": 12,
+      "tp": 84
+    }
+  },
+  "Logistic Regression": {
+    "accuracy": 0.9651,
+    "precision": 0.9859,
+    "recall": 0.7292,
+    "f1_score": 0.8383,
+    "pr_auc": 0.9767,
+    "roc_auc": 0.9966,
+    "latency_ms": 0.0,
+    "confusion_matrix": {
+      "tn": 677,
+      "fp": 1,
+      "fn": 26,
+      "tp": 70
+    }
+  },
+  "LSTM": {
+    "accuracy": 0.9742,
+    "precision": 0.8654,
+    "recall": 0.9375,
+    "f1_score": 0.9,
+    "pr_auc": 0.9426,
+    "roc_auc": 0.9697,
+    "latency_ms": 0.093,
+    "confusion_matrix": {
+      "tn": 664,
+      "fp": 14,
+      "fn": 6,
+      "tp": 90
+    }
+  },
+  "Bidirectional LSTM": {
+    "accuracy": 0.9742,
+    "precision": 0.9043,
+    "recall": 0.8854,
+    "f1_score": 0.8947,
+    "pr_auc": 0.9546,
+    "roc_auc": 0.9873,
+    "latency_ms": 0.176,
+    "confusion_matrix": {
+      "tn": 669,
+      "fp": 9,
+      "fn": 11,
+      "tp": 85
+    }
+  }
+}
